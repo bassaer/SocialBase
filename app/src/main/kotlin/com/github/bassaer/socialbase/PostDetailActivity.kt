@@ -1,13 +1,13 @@
 package com.github.bassaer.socialbase
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 
-class MainActivity : BaseActivity() {
+/**
+ * Created by nakayama on 2017/09/30.
+ */
+class PostDetailActivity: BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
     }
-
 }
