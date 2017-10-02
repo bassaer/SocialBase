@@ -6,7 +6,7 @@
                 tools:context="com.github.bassaer.socialbase.NewPostActivity">
 
     <EditText
-        android:id="@+id/field_title"
+        android:id="@+id/titleField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
@@ -17,10 +17,10 @@
         android:maxLines="1" />
 
     <EditText
-        android:id="@+id/field_body"
+        android:id="@+id/bodyField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/field_title"
+        android:layout_below="@+id/titleField"
         android:layout_marginBottom="5dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
@@ -31,7 +31,7 @@
         android:scrollHorizontally="false" />
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_submit_post"
+        android:id="@+id/submitPostFab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
